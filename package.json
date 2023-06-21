@@ -13,12 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MANI4C69/JavascriptPratice.git"
+    "url": "git+https://github.com/MANI4C69/JavascriptPratice.git"
   },
   "author": "MAni4C",
   "license": "ISC",
   "description": "\"\"",
   "keywords": [
     "index.js"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/MANI4C69/JavascriptPratice/issues"
+  },
+  "homepage": "https://github.com/MANI4C69/JavascriptPratice#readme"
 }

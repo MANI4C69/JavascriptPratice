@@ -7,4 +7,8 @@ app.use(morgan('dev'));
 
 app.listen(3000, () =>{
     console.log('server is runing')
-})
+});
+
+app.get('/'; (req, res) =>{
+    res.send('mundo hijo de puta');
+});
