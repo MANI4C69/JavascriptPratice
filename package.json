@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "javascriptpratice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cls"
+  },
+  "author": "MAni4C",
+  "license": "ISC",
+  "description": "\"\"",
+  "keywords": [
+    "index.js"
+  ]
+}
