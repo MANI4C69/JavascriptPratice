@@ -6,11 +6,11 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 
 app.listen(3000, () => {
-    console.log('server is runing');
+    console.log('server is runing')
 });
 
 app.get('/'; (req, res) => {
-    res.send('mundo hijo de puta');
+    res.send('mundo hijo de puta')
 });
 
 //------------------------[nodemon] app crashed-------------------------------------------
