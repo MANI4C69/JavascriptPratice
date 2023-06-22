@@ -12,7 +12,7 @@ app.get('/', async (req, res) => {
     // Realizar solicitud a la API-FOOTBALL para obtener los datos de los equipos
     const response = await axios.get('https://api-football.com/endpoint', {
       headers: {
-        'X-RapidAPI-Key': 'TU_LLAVE_DE_AUTENTICACION',
+        'X-RapidAPI-Key': '18273645',
       },
     });
 
