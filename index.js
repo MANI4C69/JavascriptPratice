@@ -25,9 +25,7 @@ module.exports = mongoose.model('User', {
 });
 //-----------------------¡¡¡¡¡¡¡¡¡¡¿¿??!!!!!!!---------------------------------------------
 
-const express = require('express');
-const axios = require('axios');
-const app = express();
+
 
 // Configurar PUG como el motor de plantillas
 app.set('view engine', 'pug');
