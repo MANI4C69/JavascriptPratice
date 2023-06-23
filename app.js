@@ -23,8 +23,3 @@ app.get('/', async (req, res) => {
     res.render('error', { error: 'Ocurrió un error al obtener los datos de los equipos.' });
   }
 });
-
-// Iniciar el servidor
-app.listen(3000, () => {
-  console.log('La plataforma está funcionando en el puerto 3000.');
-});
